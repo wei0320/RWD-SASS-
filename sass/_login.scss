@@ -1,0 +1,100 @@
+$whitecolor:white;
+$maincolor:#3d1101;
+$bgcolor:#efe9e7;
+$font-s:18px;
+$font-m:20px;
+$font-l:24px;
+$font-bl:36px;
+
+.login {
+    background-color: $bgcolor;
+    padding: 3% 0;
+    color: $maincolor;
+    line-height: 1.2;
+}
+
+.login-form {
+    margin: 0 auto;
+    width: 300px;
+
+    h3 {
+        font-size: 48px;
+        text-align: center;
+    }
+
+    p {
+        font-size: $font-m;
+        text-align: center;
+        margin-bottom: 35px;
+    }
+}
+
+.pure-form-stacked {
+    text-align: center;
+    box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+    border-top: 3px solid #FF5E45;
+    legend{
+    	font-size: $font-s;
+    	padding-top: 3%;
+    }
+    label {
+        text-align: left;
+        margin-left: 5%;
+    }
+
+    input[type=email] {
+        width: 270px;
+        margin-left: 2%;
+        text-indent: 20px;
+    }
+
+    input[type=password] {
+        width: 270px;
+        margin-left: 2%;
+        text-indent: 20px;
+    }
+}
+.icon-e{
+	display: inline-block;
+	position: relative;
+	.fa-envelope-square{
+		position: absolute;
+		top: 35%;
+		left: 5%;
+	}
+}
+.icon-p{
+	display: inline-block;
+	position: relative;
+	.fa-unlock-alt{
+		position: absolute;
+		top: 35%;
+		left: 5%;
+	}
+}
+.forget {
+    a {
+        color: #FF5E45;
+        font-size: 14px;
+        text-decoration: none;
+        display: block;
+    }
+}
+
+.pure-button-primary {
+    width: 125px;
+    height: 32px;
+    font-size: 14px;
+    margin-top: 5%;
+}
+
+.btn1-login {
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 3px;
+    margin-right: 20px;
+}
+
+.btn2-login {
+    background: #F56C23;
+    border-radius: 3px;
+}

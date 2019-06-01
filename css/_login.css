@@ -1,0 +1,73 @@
+.login {
+  background-color: #efe9e7;
+  padding: 3% 0;
+  color: #3d1101;
+  line-height: 1.2; }
+
+.login-form {
+  margin: 0 auto;
+  width: 300px; }
+  .login-form h3 {
+    font-size: 48px;
+    text-align: center; }
+  .login-form p {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 35px; }
+
+.pure-form-stacked {
+  text-align: center;
+  -webkit-box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  box-shadow: 3px 3px 4px 0px rgba(0, 0, 0, 0.16);
+  border-top: 3px solid #FF5E45; }
+  .pure-form-stacked legend {
+    font-size: 18px;
+    padding-top: 3%; }
+  .pure-form-stacked label {
+    text-align: left;
+    margin-left: 5%; }
+  .pure-form-stacked input[type=email] {
+    width: 270px;
+    margin-left: 2%;
+    text-indent: 20px; }
+  .pure-form-stacked input[type=password] {
+    width: 270px;
+    margin-left: 2%;
+    text-indent: 20px; }
+
+.icon-e {
+  display: inline-block;
+  position: relative; }
+  .icon-e .fa-envelope-square {
+    position: absolute;
+    top: 35%;
+    left: 5%; }
+
+.icon-p {
+  display: inline-block;
+  position: relative; }
+  .icon-p .fa-unlock-alt {
+    position: absolute;
+    top: 35%;
+    left: 5%; }
+
+.forget a {
+  color: #FF5E45;
+  font-size: 14px;
+  text-decoration: none;
+  display: block; }
+
+.pure-button-primary {
+  width: 125px;
+  height: 32px;
+  font-size: 14px;
+  margin-top: 5%; }
+
+.btn1-login {
+  background: rgba(0, 0, 0, 0.35);
+  border-radius: 3px;
+  margin-right: 20px; }
+
+.btn2-login {
+  background: #F56C23;
+  border-radius: 3px; }

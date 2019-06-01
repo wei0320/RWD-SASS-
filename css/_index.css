@@ -1,0 +1,178 @@
+.content .index .special {
+  background-color: #efe9e7;
+  color: #3d1101;
+  padding: 3%; }
+  .content .index .special h3 {
+    text-align: center;
+    line-height: 1.5;
+    font-size: 20px;
+    margin-bottom: 3%; }
+  .content .index .special .special-photo li {
+    float: left;
+    width: 31.33333%;
+    margin-right: 1%;
+    margin-left: 1%;
+    text-align: center; }
+    @media (max-width: 414px) {
+      .content .index .special .special-photo li {
+        float: none;
+        width: 100%; } }
+    .content .index .special .special-photo li a {
+      text-decoration: none;
+      display: block; }
+      .content .index .special .special-photo li a img {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%; }
+    .content .index .special .special-photo li h4 {
+      font-size: 18px;
+      margin: 3% 0; }
+    .content .index .special .special-photo li p {
+      text-align: left;
+      padding: 3%;
+      margin-left: 3%; }
+
+.content .index .chef {
+  background-color: #3d1101;
+  padding: 0 3%; }
+  @media (max-width: 414px) {
+    .content .index .chef {
+      padding: 0; } }
+  .content .index .chef img {
+    width: 470px;
+    height: 460px;
+    float: left;
+    width: 48%; }
+    @media (max-width: 414px) {
+      .content .index .chef img {
+        float: none;
+        width: 100%; } }
+  .content .index .chef .chef-about {
+    color: white;
+    float: right;
+    width: 48%;
+    margin-left: 1%;
+    margin-right: 1%; }
+    @media (max-width: 414px) {
+      .content .index .chef .chef-about {
+        float: none;
+        width: 80%;
+        margin-left: 15%;
+        margin-right: 5%; } }
+    .content .index .chef .chef-about h3 {
+      font-size: 20px;
+      line-height: 1.5;
+      margin-top: 20%;
+      margin-bottom: 5%; }
+      @media (max-width: 414px) {
+        .content .index .chef .chef-about h3 {
+          margin-top: 10%; } }
+    .content .index .chef .chef-about p {
+      padding-right: 15%; }
+      @media (max-width: 414px) {
+        .content .index .chef .chef-about p {
+          padding-bottom: 10%;
+          line-height: 1.5; } }
+
+.content .index .feel {
+  background-color: #efe9e7;
+  padding: 3%;
+  color: #3d1101; }
+  .content .index .feel h3 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 3%; }
+    @media (max-width: 414px) {
+      .content .index .feel h3 {
+        margin-top: 5%;
+        margin-bottom: 5%; } }
+  .content .index .feel .feel-photo li {
+    float: left;
+    width: 31.33333%;
+    margin-left: 1%;
+    margin-right: 1%; }
+    @media (max-width: 414px) {
+      .content .index .feel .feel-photo li {
+        width: 100%; } }
+    .content .index .feel .feel-photo li a {
+      display: inline-block; }
+      .content .index .feel .feel-photo li a img {
+        border-radius: 50%;
+        width: 67px;
+        height: 67px; }
+    .content .index .feel .feel-photo li .feel-about {
+      float: right;
+      width: 220px; }
+      @media (max-width: 768px) {
+        .content .index .feel .feel-photo li .feel-about {
+          width: 150px; } }
+      @media (max-width: 414px) {
+        .content .index .feel .feel-photo li .feel-about {
+          width: 80%; } }
+      .content .index .feel .feel-photo li .feel-about h4 {
+        margin-top: 10%;
+        margin-bottom: 10%;
+        font-size: 18px; }
+        .content .index .feel .feel-photo li .feel-about h4 a {
+          display: block;
+          text-decoration: none;
+          color: #3d1101; }
+      .content .index .feel .feel-photo li .feel-about p {
+        margin-bottom: 7%; }
+      .content .index .feel .feel-photo li .feel-about span {
+        float: right; }
+
+.content .index .map {
+  background: rgba(250, 250, 250, 0.7);
+  padding: 3%;
+  color: #3d1101; }
+  .content .index .map h5 {
+    text-align: center;
+    font-size: 24px;
+    line-height: 1.5;
+    margin-bottom: 3%; }
+  .content .index .map img {
+    max-width: 460px;
+    height: 386px;
+    float: left;
+    width: 48%; }
+    @media (max-width: 414px) {
+      .content .index .map img {
+        float: none;
+        width: 100%; } }
+
+.content .index .map-form {
+  color: #3d1101;
+  float: right;
+  width: 48%;
+  margin-right: 1%;
+  margin-left: 1%; }
+  @media (max-width: 414px) {
+    .content .index .map-form {
+      float: none;
+      width: 98%; } }
+  .content .index .map-form label {
+    font-size: 14px;
+    line-height: 2; }
+  .content .index .map-form .text {
+    width: 100%;
+    height: 32px; }
+
+.content .index .map-btn {
+  float: right;
+  margin-top: 5%;
+  margin-right: 1%; }
+  .content .index .map-btn .btn1 {
+    font-size: 14px;
+    color: white;
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 3px;
+    width: 70px;
+    height: 32px; }
+  .content .index .map-btn .btn2 {
+    background: #F56C23;
+    border-radius: 3px;
+    font-size: 14px;
+    color: white;
+    width: 70px;
+    height: 32px; }
